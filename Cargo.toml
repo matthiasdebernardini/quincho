@@ -1,0 +1,11 @@
+[package]
+name = "quincho"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+thiserror = "1.0.38"
+base64-compat = "1.0.0"
+hex = "0.4.3"
+bitcoin = "0.29.2"
+secp256k1 = { version = "0.26.0", features = [ "recovery" ] }
