@@ -107,7 +107,7 @@ pub fn verify(
     Ok(true)
 }
 
-#[derive(Error, Debug)]
+#[derive(Error, Debug, Clone)]
 pub enum QuinchoError {
     #[error("Rare/impossible case that signer can both be parsed as pubkey and address.")]
     ImpossibleCaseError,

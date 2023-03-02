@@ -1,7 +1,11 @@
 [package]
 name = "quincho"
-version = "0.1.0"
+version = "0.0.1"
+authors = ["Matthias Debernardini <m.f.debern@protonmail.com>"]
+description = "verify message signatures using bitcoin"
+license = "MIT"
 edition = "2021"
+repository = "https://github.com/matthiasdebernardini/quincho"
 
 [dependencies]
 thiserror = "1.0.38"
